@@ -9,8 +9,10 @@ public class Main {
             String line;
             StringBuilder sb = new StringBuilder();
             while ((line = reader.readLine()) != null) {
-                sb.append(line);
-                sb.append("\n");
+                if (!line.trim().isEmpty()) {
+                    sb.append(line);
+                    sb.append("\n");
+                }
             }
             String content = sb.toString();
 
