@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1></h1>
+    <p>Это абзац с текстом.</p>
+    <div>
+        <img src="image.jpg" alt="">
+        <br>
+    </div>
+    <div></div>
+</body>
+</html>
