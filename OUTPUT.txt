@@ -2,5 +2,3 @@
     <p>Это абзац с текстом.</p>
         <img src="image.jpg" alt="">
     
-</body>
- <h1></h1>
