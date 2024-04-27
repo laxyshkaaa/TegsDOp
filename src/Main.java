@@ -16,7 +16,7 @@ public class Main {
             }
             String content = sb.toString();
 
-            Pattern emptyTagPattern = Pattern.compile("<([a-zA-Z]+)>\\s*</\\1>");
+            Pattern emptyTagPattern = Pattern.compile("<(([a-zA-Z]+).*)>\\s*</\\1>");
             Matcher matcher = emptyTagPattern.matcher(content);
             String cleanedContent = matcher.replaceAll("");
 
